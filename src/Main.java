@@ -48,25 +48,25 @@ public class Main {
         var firstBoxerWeight = 78.2;
         var secondBoxerWeight = 82.7;
         System.out.println("Общая масса бойцов равна "
-                + (firstBoxerWeight + secondBoxerWeight) + " кг");
+                + (firstBoxerWeight + secondBoxerWeight) + " кг.");
         System.out.println("Разница между массами бойцов равна "
-                + (secondBoxerWeight - firstBoxerWeight) + " кг");
+                + (secondBoxerWeight - firstBoxerWeight) + " кг.");
 
         //Задача 7
         var boxerWeightDifference = secondBoxerWeight % firstBoxerWeight;
-        System.out.println("Разница весов бойцов равна " + boxerWeightDifference + " кг");
+        System.out.println("Разница весов бойцов равна " + boxerWeightDifference + " кг.");
 
         //Задача 8
         var totalHours = 640;
         var hoursPerWorker = 8;
         var amountWorkers = totalHours / hoursPerWorker;
-        System.out.println("Всего работников в компании — " + amountWorkers + " человек");
+        System.out.println("Всего работников в компании — " + amountWorkers + " человек.");
 
         var newAmountWorkers = amountWorkers + 94;
         var newTotalHours = newAmountWorkers * hoursPerWorker;
         System.out.println("Если в компании работает " + newAmountWorkers
                 + " человек, то всего " + newTotalHours
-                + " часов работы может быть поделено между сотрудниками");
+                + " часов работы может быть поделено между сотрудниками.");
 
 
 
