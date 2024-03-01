@@ -48,25 +48,51 @@ public class Main {
         var firstBoxerWeight = 78.2;
         var secondBoxerWeight = 82.7;
         System.out.println("Общая масса бойцов равна "
-                + (firstBoxerWeight + secondBoxerWeight) + " кг");
+                + (firstBoxerWeight + secondBoxerWeight) + " кг.");
         System.out.println("Разница между массами бойцов равна "
-                + (secondBoxerWeight - firstBoxerWeight) + " кг");
+                + (secondBoxerWeight - firstBoxerWeight) + " кг.");
 
         //Задача 7
         var boxerWeightDifference = secondBoxerWeight % firstBoxerWeight;
-        System.out.println("Разница весов бойцов равна " + boxerWeightDifference + " кг");
+        System.out.println("Разница весов бойцов равна " + boxerWeightDifference + " кг.");
 
         //Задача 8
         var totalHours = 640;
         var hoursPerWorker = 8;
         var amountWorkers = totalHours / hoursPerWorker;
-        System.out.println("Всего работников в компании — " + amountWorkers + " человек");
+        System.out.println("Всего работников в компании — " + amountWorkers + " человек.");
 
         var newAmountWorkers = amountWorkers + 94;
         var newTotalHours = newAmountWorkers * hoursPerWorker;
         System.out.println("Если в компании работает " + newAmountWorkers
                 + " человек, то всего " + newTotalHours
-                + " часов работы может быть поделено между сотрудниками");
+                + " часов работы может быть поделено между сотрудниками.");
+
+        // Задача 6. Повышенная сложность.
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+
+        int result = a * (b + (c - d * e));
+        System.out.println(-1*result);
+
+        // Задача 7. Повышенная сложность.
+        int f = 5;
+        int g = 7;
+
+        f = g * f / f;
+        g = (f * f - (f + f)) / f;
+        System.out.println("f = " + f + " g = " + g);
+
+        // Задача 8. Повышенная сложность.
+        int h = 123;
+
+        int k = (h / 10) % 10;
+        System.out.println("k = " + k);
+
+
 
 
 
