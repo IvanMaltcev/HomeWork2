@@ -68,6 +68,32 @@ public class Main {
                 + " человек, то всего " + newTotalHours
                 + " часов работы может быть поделено между сотрудниками.");
 
+        // Задача 6. Повышенная сложность.
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+
+        int result = a * (b + (c - d * e));
+        System.out.println(-1*result);
+
+        // Задача 7. Повышенная сложность.
+        int f = 5;
+        int g = 7;
+
+        f = g * f / f;
+        g = (f * f - (f + f)) / f;
+        System.out.println("f = " + f + " g = " + g);
+
+        // Задача 8. Повышенная сложность.
+        int h = 123;
+
+        int k = (h / 10) % 10;
+        System.out.println("k = " + k);
+
+
+
 
 
     }
